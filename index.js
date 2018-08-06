@@ -8,8 +8,9 @@ function logShout(string) {
   console.log(string.toUpperCase());
 }
 function logWhisper(string) {
-  console.log().toLowerCase();
+  console.log(string.toLowerCase());
 }
+var uppercase = "HELLO!"
 function sayHiToGrandma(string) {
   if (string === "I love you, grandma.");
   return "I love you, too.";
