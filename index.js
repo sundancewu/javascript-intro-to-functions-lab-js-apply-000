@@ -15,14 +15,11 @@ var lowercase = 'hello!'
 var mixedCase = 'Hi there!'
 
 function sayHiToGrandma(string) {
-  if (string === lowercase && string != "I love you, grandma.");
-  return "I can't hear you!";
-}
-function sayHiToGrandma(string) {
-  if (string === uppercase);
-  return "YES INDEED!";
-}
-function sayHiToGrandma(string) {
-  if (string === "I love you, grandma." || string === "i love you, grandma. " || string === "I LOVE YOU, GRANDMA.");
-  return "I love you, too.";
-}
+  if (string.toLowerCase() === string) {
+    return "I can't hear you!";
+  } else if (string.toUpperCase() === string) {
+    return "YES INDEED!";
+  } else if (string === "I love you, Grandma.") {
+    return "I love you, too.";
+  }
+};
